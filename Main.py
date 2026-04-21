@@ -1,33 +1,25 @@
-import csv
+from us_states_quiz import run_us_states_quiz
 
-# ===== TEST COUNTRIES FILE =====
-print("Testing countries_capitals.csv...\n")
+while True:
+    print("\nChoose which quiz you'd like to try:")
+    print("1. Countries of the World (15 minutes)")
+    print("2. Capitals of the World (20 minutes)")
+    print("3. US States (5 minutes)")
+    print("4. US State Capitals (10 minutes)")
+    print("5. Exit")
 
-try:
-    with open("countries_capitals.csv", "r", newline="", encoding="utf-8") as file:
-        reader = csv.DictReader(file)
+    choice = input("Enter your choice (1-5): ").strip()
 
-        for row in reader:
-            print("Country:", row["country"], "| Capital:", row["capital"])
-            break  # only show first row
-
-    print("✅ countries_capitals.csv works!\n")
-
-except Exception as e:
-    print("❌ Error with countries file:", e)
-
-# ===== TEST STATES FILE =====
-print("Testing state_capitals.csv...\n")
-
-try:
-    with open("state_capitals.csv", "r", newline="", encoding="utf-8") as file:
-        reader = csv.DictReader(file)
-
-        for row in reader:
-            print("State:", row["state"], "| Capital:", row["capital"])
-            break  # only show first row
-
-    print("✅ state_capitals.csv works!\n")
-
-except Exception as e:
-    print("❌ Error with states file:", e)
+    if choice == "1":
+        print("Countries quiz not added yet.")
+    elif choice == "2":
+        print("Capitals quiz not added yet.")
+    elif choice == "3":
+        run_us_states_quiz()
+    elif choice == "4":
+        print("US state capitals quiz not added yet.")
+    elif choice == "5":
+        print("Thanks for playing!")
+        break
+    else:
+        print("Invalid choice. Please enter a number from 1 to 5.")
