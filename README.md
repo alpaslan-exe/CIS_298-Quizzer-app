@@ -38,16 +38,8 @@ python -m unittest
 - `countries_capitals.csv`: country and capital data
 - `state_capitals.csv`: US state and capital data
 
-## Development Log
-
-Record real work only. Each row should match an actual commit and actual time
-spent by the listed contributor.
-
-| Date | Contributor | Time Spent | Commit | What Was Accomplished |
-| --- | --- | ---: | --- | --- |
-| 2026-04-26 | AI-assisted maintenance | ~1 hour | Pending local changes | Built the shared quiz engine, wired all four quiz modes, added setup instructions, and added unit tests. |
-
 ## Team Evaluations
 
-Each team member should commit their own evaluation using the course format.
-Use real participation details rather than generated or backdated entries.
+Alpaslan: 
+Zhaglas:
+Mohammadnoor:
