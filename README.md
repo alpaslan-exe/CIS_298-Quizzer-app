@@ -39,8 +39,17 @@ python -m unittest
 - `state_capitals.csv`: US state and capital data
 
 ## Team Evaluation
-| Name         | Contribution                                    | Score | Time spent |
-|--------------|-------------------------------------------------|-------|------------|
-| MohammadNour | Pulled Data contributed to Colorizing the tests |   5/5 |   27 hours |
-| Zhaglas      | Built Menu interface, QC                        |   5/5 |   25 hours |
-| Alpaslan     | Maintained github, integrated data pipelines.   |   5/5 |   26 hours |
+| Name         | Contribution                                    | Score |
+|--------------|-------------------------------------------------|-------|
+| MohammadNour | Pulled Data contributed to Colorizing the tests |   5/5 |
+| Zhaglas      | Built Menu interface, QC                        |   5/5 |
+| Alpaslan     | Maintained github, integrated data pipelines.   |   5/5 |
+
+## Log
+| Person        | Feature area                                                                 | time |
+|---------------|------------------------------------------------------------------------------|----------------------|
+| MohammadNour  | early scaffolding, README/content, US states quiz files, dependency/file setup | 24.5 hours           |
+| Alpaslan      | shared quiz engine, refactor, normalization, tests, integration, managed git  | 23.8 hours           |
+| Zhaglas       | menu loop, quiz dispatch, `.gitignore`, quality-control/support work + QA testing | 20.7 hours           |
+
+Total: 69.0 hours
