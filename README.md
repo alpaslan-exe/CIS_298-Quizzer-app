@@ -37,3 +37,10 @@ python -m unittest
 - `us_states_quiz.py`: US states quiz wrapper
 - `countries_capitals.csv`: country and capital data
 - `state_capitals.csv`: US state and capital data
+
+## Team Evaluation
+| Name         | Contribution                                    | Score | Time spent |
+|--------------|-------------------------------------------------|-------|------------|
+| MohammadNour | Pulled Data contributed to Colorizing the tests |   5/5 |   27 hours |
+| Zhaglas      | Built Menu interface, QC                        |   5/5 |   25 hours |
+| Alpaslan     | Maintained github, integrated data pipelines.   |   5/5 |   26 hours |
